@@ -14,9 +14,11 @@ def start_tunnel():
 threading.Thread(target=start_tunnel, daemon=True).start()
 
 # --- CONFIG ---
-TOKEN = "pranav1875"
-PORT = 8888 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1495836186428833933/NWB91nQB46-peklyN3b6iZ0AX3SZwFVZLXkRG_5Otg-9aUDFTYIBXtEfpqi2uiU1XSvR"
+
+#replcace with your own config
+TOKEN = ""
+PORT = 8888 #Dont change this!
+WEBHOOK_URL = ""
 LOG_PATH = os.path.join(os.environ["LOCALAPPDATA"], "bridge_log.txt")
 # --------------
 
